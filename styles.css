@@ -1,0 +1,60 @@
+body {
+    background: url('https://timesofindia.indiatimes.com/photo/66525501.cms') no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 251, 224, 0.8);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 90%;
+    max-width: 600px;
+    color: #4a2d1f;
+    position: relative;
+}
+
+h1 {
+    color: #d2691e;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #ffb74d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff8c00;
+}
+
+.signature {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-style: italic;
+    color: #6d3b1f;
+    font-size: 0.9em;
+}
